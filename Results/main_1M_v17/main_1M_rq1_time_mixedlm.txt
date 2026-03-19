@@ -1,0 +1,25 @@
+                             Mixed Linear Model Regression Results
+================================================================================================
+Model:                       MixedLM          Dependent Variable:          log_fulfillment_hours
+No. Observations:            450000           Method:                      REML                 
+No. Groups:                  90               Scale:                       0.0883               
+Min. group size:             5000             Log-Likelihood:              -92745.5462          
+Max. group size:             5000             Converged:                   Yes                  
+Mean group size:             5000.0                                                             
+------------------------------------------------------------------------------------------------
+                                                   Coef.  Std.Err.     z     P>|z| [0.025 0.975]
+------------------------------------------------------------------------------------------------
+Intercept                                          -6.141    0.005 -1176.980 0.000 -6.151 -6.130
+C(scenario)[T.vaulted]                             -5.504    0.007  -745.993 0.000 -5.518 -5.490
+C(scenario)[T.vaultless]                           -5.381    0.007  -729.334 0.000 -5.396 -5.367
+C(right)[T.erasure]                                 0.010    0.002     4.819 0.000  0.006  0.014
+C(right)[T.portability]                            -0.000    0.002    -0.011 0.991 -0.004  0.004
+C(right)[T.rectification]                          -0.000    0.002    -0.070 0.944 -0.004  0.004
+C(scenario)[T.vaulted]:C(right)[T.erasure]          1.001    0.003   336.365 0.000  0.995  1.007
+C(scenario)[T.vaultless]:C(right)[T.erasure]        1.948    0.003   654.430 0.000  1.942  1.954
+C(scenario)[T.vaulted]:C(right)[T.portability]      0.003    0.003     1.118 0.264 -0.003  0.009
+C(scenario)[T.vaultless]:C(right)[T.portability]   -0.000    0.003    -0.109 0.914 -0.006  0.006
+C(scenario)[T.vaulted]:C(right)[T.rectification]   -0.001    0.003    -0.398 0.691 -0.007  0.005
+C(scenario)[T.vaultless]:C(right)[T.rectification]  0.001    0.003     0.289 0.772 -0.005  0.007
+Group Var                                           0.001    0.000                              
+================================================================================================

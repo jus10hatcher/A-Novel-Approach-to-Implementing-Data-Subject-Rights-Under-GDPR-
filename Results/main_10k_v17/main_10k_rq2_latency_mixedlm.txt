@@ -1,0 +1,25 @@
+                            Mixed Linear Model Regression Results
+==============================================================================================
+Model:                         MixedLM             Dependent Variable:             log_latency
+No. Observations:              450000              Method:                         REML       
+No. Groups:                    90                  Scale:                          0.0914     
+Min. group size:               5000                Log-Likelihood:                 inf        
+Max. group size:               5000                Converged:                      Yes        
+Mean group size:               5000.0                                                         
+----------------------------------------------------------------------------------------------
+                                                   Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+----------------------------------------------------------------------------------------------
+Intercept                                          -0.003                                     
+C(scenario)[T.vaulted]                             -0.064                                     
+C(scenario)[T.vaultless]                           -0.119                                     
+C(right)[T.erasure]                                 0.008    0.002   3.575 0.000  0.003  0.012
+C(right)[T.portability]                            -0.005    0.002  -2.229 0.026 -0.009 -0.001
+C(right)[T.rectification]                          -0.003    0.002  -1.457 0.145 -0.007  0.001
+C(scenario)[T.vaulted]:C(right)[T.erasure]          0.992    0.003 327.967 0.000  0.986  0.998
+C(scenario)[T.vaultless]:C(right)[T.erasure]        1.949    0.003 643.653 0.000  1.943  1.955
+C(scenario)[T.vaulted]:C(right)[T.portability]      0.002    0.003   0.655 0.512 -0.004  0.008
+C(scenario)[T.vaultless]:C(right)[T.portability]    0.006    0.003   2.108 0.035  0.000  0.012
+C(scenario)[T.vaulted]:C(right)[T.rectification]   -0.002    0.003  -0.752 0.452 -0.008  0.004
+C(scenario)[T.vaultless]:C(right)[T.rectification]  0.004    0.003   1.486 0.137 -0.001  0.010
+Group Var                                           0.000                                     
+==============================================================================================

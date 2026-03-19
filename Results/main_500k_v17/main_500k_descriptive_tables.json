@@ -1,0 +1,266 @@
+{
+  "compliance_success_rate_by_system_load_right": [
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "access",
+      "compliance_success": 0.7358112508140059
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "erasure",
+      "compliance_success": 0.9324203038260812
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "portability",
+      "compliance_success": 0.930243398927846
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "rectification",
+      "compliance_success": 0.7355892648774796
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "access",
+      "compliance_success": 0.9397566294341884
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "erasure",
+      "compliance_success": 0.9423578159460001
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "portability",
+      "compliance_success": 0.9386445662344607
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "rectification",
+      "compliance_success": 0.9415500216111979
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "access",
+      "compliance_success": 0.938927234927235
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "erasure",
+      "compliance_success": 0.9415257648953301
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "portability",
+      "compliance_success": 0.9387755102040817
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "rectification",
+      "compliance_success": 0.9414830058417419
+    }
+  ],
+  "latency_by_system_load_right": [
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "access",
+      "p50": 8.124234,
+      "p95": 9.8667452,
+      "p99": 10.962018080000004,
+      "mean": 7.99438293349363,
+      "std": 1.435352827354249,
+      "n": 59889
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "erasure",
+      "p50": 8.182832,
+      "p95": 9.9052524,
+      "p99": 10.973560620000002,
+      "mean": 8.048840453079812,
+      "std": 1.4375970809735463,
+      "n": 30083
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "portability",
+      "p50": 8.126944,
+      "p95": 9.857325799999998,
+      "p99": 10.924941,
+      "mean": 7.995895941530983,
+      "std": 1.4299947917345417,
+      "n": 30033
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "right": "rectification",
+      "p50": 8.129395,
+      "p95": 9.8724267,
+      "p99": 10.962394180000006,
+      "mean": 7.995850484580763,
+      "std": 1.4374350421154192,
+      "n": 29995
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "access",
+      "p50": 0.03209,
+      "p95": 0.04805219999999998,
+      "p99": 0.058268079999999986,
+      "mean": 0.03304409511760691,
+      "std": 0.016413427727073805,
+      "n": 60073
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "erasure",
+      "p50": 0.0912015,
+      "p95": 0.108046,
+      "p99": 0.11906074999999999,
+      "mean": 0.0896072956626345,
+      "std": 0.02191222337293945,
+      "n": 29926
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "portability",
+      "p50": 0.031979,
+      "p95": 0.048288849999999994,
+      "p99": 0.058271550000000005,
+      "mean": 0.032957182996925544,
+      "std": 0.015015780641528522,
+      "n": 29924
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "right": "rectification",
+      "p50": 0.032056,
+      "p95": 0.048211999999999984,
+      "p99": 0.05899511999999998,
+      "mean": 0.033148839644911395,
+      "std": 0.019469953422582918,
+      "n": 30077
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "access",
+      "p50": 0.034701,
+      "p95": 0.05371,
+      "p99": 0.06667084000000001,
+      "mean": 0.036887607567567565,
+      "std": 0.017170311149824927,
+      "n": 60125
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "erasure",
+      "p50": 0.2838505,
+      "p95": 0.30332469999999995,
+      "p99": 0.31529934000000004,
+      "mean": 0.27224083531266774,
+      "std": 0.06098174795883186,
+      "n": 29808
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "portability",
+      "p50": 0.034672,
+      "p95": 0.05358129999999999,
+      "p99": 0.0653384799999999,
+      "mean": 0.0366502991415879,
+      "std": 0.01387233042607812,
+      "n": 29939
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "right": "rectification",
+      "p50": 0.0345935,
+      "p95": 0.053681,
+      "p99": 0.06461346,
+      "mean": 0.03689189697291556,
+      "std": 0.01824352165964572,
+      "n": 30128
+    }
+  ],
+  "negtest_block_rate_by_system_load_attack": [
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "attack_type": "detokenize_without_consent",
+      "blocked": 0.9937106918238994
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "attack_type": "replay_token",
+      "blocked": 0.9921875
+    },
+    {
+      "scenario": "encryption",
+      "load_tier": "500k",
+      "attack_type": "wrong_context_key",
+      "blocked": 0.9935897435897436
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "attack_type": "detokenize_without_consent",
+      "blocked": 0.9978768577494692
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "attack_type": "replay_token",
+      "blocked": 0.9964093357271095
+    },
+    {
+      "scenario": "vaulted",
+      "load_tier": "500k",
+      "attack_type": "wrong_context_key",
+      "blocked": 1.0
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "attack_type": "detokenize_without_consent",
+      "blocked": 1.0
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "attack_type": "replay_token",
+      "blocked": 1.0
+    },
+    {
+      "scenario": "vaultless",
+      "load_tier": "500k",
+      "attack_type": "wrong_context_key",
+      "blocked": 1.0
+    }
+  ]
+}

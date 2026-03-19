@@ -1,0 +1,46 @@
+{
+  "chain_ok": true,
+  "chain_bad_line_indices": null,
+  "total_entries": 900001,
+  "prev_hash_missing_after_first": 0,
+  "counts_by_action": {
+    "authorization_check": 450000,
+    "access": 180087,
+    "rectification": 90495,
+    "portability": 89829,
+    "erasure": 89589,
+    "consent_seed_summary": 1
+  },
+  "counts_by_outcome": {
+    "success": 846145,
+    "denied": 53856
+  },
+  "counts_by_actor": {
+    "simulator": 900000,
+    "seeder": 1
+  },
+  "first_entry": {
+    "action": "consent_seed_summary",
+    "actor": "seeder",
+    "detail": "subjects=100000 scopes=['consent:read', 'consent:write', 'consent:erase', 'consent:restrict'] rates={'consent:read': 0.95, 'consent:write': 0.9, 'consent:erase': 0.9, 'consent:restrict': 0.6} grants=334857 audit_grants=False",
+    "entry_hash": "e034b49127ec7213fef0d845382cdfd1f26f169154475c0669571232e658792f",
+    "outcome": "success",
+    "prev_hash": null,
+    "request_id": "consent-seed-1770809340843",
+    "subject_id": "SYSTEM",
+    "timestamp": 1770809340.84337
+  },
+  "last_entry": {
+    "action": "erasure",
+    "actor": "simulator",
+    "detail": "scenario=vaultless latency_s=0.282476 auth_reason=consent-present erasure_op=vaultless api_s=0.250000",
+    "entry_hash": "90e6666276cd83a88c6b289d3c50e56261efcda0b18d3b89aa6bbfd1a9536f60",
+    "outcome": "success",
+    "prev_hash": "d6b3eb77e69586d784c0525f214384906fc78262a5d27c98d491a3d958c59c18",
+    "request_id": "vaultless-1770822028833-449991-5230ef",
+    "subject_id": "user-49991",
+    "timestamp": 1770822029.1205888
+  },
+  "audit_path": "./out/main_1M_v17\\audit_log.ndjson",
+  "generated_at_utc": "2026-02-11T15:01:25.254393+00:00"
+}

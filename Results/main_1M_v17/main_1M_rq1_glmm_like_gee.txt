@@ -1,0 +1,29 @@
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:          compliance_success   No. Observations:               450000
+Model:                                 GEE   No. clusters:                       90
+Method:                        Generalized   Min. cluster size:                5000
+                      Estimating Equations   Max. cluster size:                5000
+Family:                           Binomial   Mean cluster size:              5000.0
+Dependence structure:         Independence   Num. iterations:                     2
+Date:                     Wed, 11 Feb 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         09:03:23
+======================================================================================================================
+                                                         coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------
+Intercept                                              1.0720      0.041     26.158      0.000       0.992       1.152
+C(scenario)[T.vaulted]                                 1.6905      0.044     38.477      0.000       1.604       1.777
+C(scenario)[T.vaultless]                               1.6524      0.043     38.090      0.000       1.567       1.737
+C(right)[T.erasure]                                    1.5627      0.040     39.438      0.000       1.485       1.640
+C(right)[T.portability]                                1.5596      0.034     45.457      0.000       1.492       1.627
+C(right)[T.rectification]                              0.0026      0.018      0.147      0.883      -0.032       0.038
+C(scenario)[T.vaulted]:C(right)[T.erasure]            -1.5685      0.053    -29.590      0.000      -1.672      -1.465
+C(scenario)[T.vaultless]:C(right)[T.erasure]          -1.5436      0.050    -30.704      0.000      -1.642      -1.445
+C(scenario)[T.vaulted]:C(right)[T.portability]        -1.5667      0.045    -34.535      0.000      -1.656      -1.478
+C(scenario)[T.vaultless]:C(right)[T.portability]      -1.5082      0.043    -34.713      0.000      -1.593      -1.423
+C(scenario)[T.vaulted]:C(right)[T.rectification]      -0.0105      0.029     -0.358      0.720      -0.068       0.047
+C(scenario)[T.vaultless]:C(right)[T.rectification]     0.0637      0.033      1.932      0.053      -0.001       0.128
+==============================================================================
+Skew:                         -2.4245   Kurtosis:                       4.7239
+Centered skew:                -2.4187   Centered kurtosis:              4.7334
+==============================================================================
